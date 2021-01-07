@@ -13,3 +13,14 @@ console.log("Pessoa ".concat(nome).concat("!"))// concatena tudo
 console.log(nome.replace('a','x'))//substitui o valor a minusculo por x minusculo
 console.log('Ronaldo pereira silva santos cunha'.split(' '))// cria um vetor de String 
 console.log('3' + 2)//retorna uma concatenação
+
+console.log(Nome.toLowerCase())//coloca a string pra minuscula
+console.log(Nome.toUpperCase())//coloca a string pra maiuscula
+console.log(Nome.length)//retorna o  numero de caracteres da string
+
+let exemplo = "5"
+console.log(typeof exemplo)
+let n1 = Number.parseInt(exemplo)
+console.log(typeof n1)
+let n2 = Number.parseInt("9")
+console.log(typeof n2)
