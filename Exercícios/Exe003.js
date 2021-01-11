@@ -1,3 +1,5 @@
+//Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.
+
 function potenciacao(base = 1, expoente = 1){
     let res =1
     while(expoente != 0){
