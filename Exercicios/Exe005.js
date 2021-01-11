@@ -4,8 +4,8 @@ importante de observar, é o fato que o ponto é utilizado no lugar da vírgula 
 um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva uma função JavaScript para
 que ela receba um valor como 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto).*/
 
-function conversao(a){
-    return 'R$'+a.toFixed(2).replace('.' , ',')
+function conversao(ValorDecimal){
+    return 'R$'+ValorDecimal.toFixed(2).replace('.' , ',')
 }
 
 console.log(conversao(0.3000000000000000000000000004))

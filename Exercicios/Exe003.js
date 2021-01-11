@@ -18,3 +18,11 @@ function potenciacao2(base = 1, expoente = 1){
 }
 
 console.log(potenciacao2(5,2))
+
+//=====================================================
+function potenciacao3(base = 1, expoente = 1){
+    
+    return base ** expoente
+}
+
+console.log(potenciacao(5,2))

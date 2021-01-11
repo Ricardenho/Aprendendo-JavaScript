@@ -6,7 +6,6 @@ triângulo) */
 
 function calcTriangulo(a =1, b=1, c=1){
     if (a < (b+c) && b < (a+c) && c < (a+b)){
-        
         if (a == b && a == c){
             console.log("Triangulo EQUILÁTERO de perímetro: " + (a+b+c)+"cm²")//todos os lados iguais
         }else if((a == b && a != c) || (a == c && a != b) || (b == c && b != a)){
@@ -15,7 +14,6 @@ function calcTriangulo(a =1, b=1, c=1){
             //if (a != b && a!= c && b != c)
             console.log("Triangulo ESCALENO de perímetro: " + (a+b+c)+"cm²")//Todos os lados diferentes
         }
-
     }else{
         console.log('Não pode formar um triangulo')
     }

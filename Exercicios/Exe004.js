@@ -6,4 +6,4 @@ function calc(dividendo = 1, divisor =1){
     console.log('Resto: ' + dividendo%divisor)
 }
 
-calc(17, 2)
+Math.floor( calc(11, 4))
