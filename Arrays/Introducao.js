@@ -33,5 +33,5 @@ console.log(aprovados[1])
 console.log(aprovados)
 console.log('===============================================')
 
-delete aprovados[1]
+aprovados.pop()
 console.log(aprovados)
