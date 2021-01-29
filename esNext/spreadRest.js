@@ -16,6 +16,8 @@ console.log(clone)
 
 //spread comn array
 const grupoA = ['João', 'Pedro', 'Gloria']
-const grupoFinal = ['Maria', ...grupoA, 'Rafaela']
+const grupoFinal = ['Maria', ...grupoA, 'Rafaela']//criar uma lista de todos os valores
+const grupoFinal2 = ['Maria', grupoA, 'Rafaela']//criar uma lista do grupoA dentro de grupoFinal
 
 console.log(grupoFinal)
+console.log(grupoFinal2)
